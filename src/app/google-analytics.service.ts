@@ -8,6 +8,6 @@ export class GoogleAnalyticsService {
   }
 
   recuperaSessioni() {
-    return this.http.get('http://localhost:8080/sessioni');
+    return this.http.get('http://localhost:3000/sessioni');
   }
 }

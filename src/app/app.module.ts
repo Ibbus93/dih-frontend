@@ -13,9 +13,10 @@ import {Ng2GoogleChartsModule} from 'ng2-google-charts';
     BrowserModule,
     HttpClientModule,
     Ng2GoogleChartsModule
-    // AppRoutingModule
   ],
-  providers: [GoogleAnalyticsService],
+  providers: [
+    GoogleAnalyticsService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -10,8 +10,7 @@ export class AppComponent implements OnInit {
 
   sessioni = {};
 
-  constructor(private servizioGoogle: GoogleAnalyticsService) {
-  }
+  constructor(private servizioGoogle: GoogleAnalyticsService) {}
 
   async ngOnInit() {
     await this.caricaSessioniGoogle();
