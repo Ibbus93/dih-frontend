@@ -1,9 +1,16 @@
 <div class="container">
+
   <h1 class="text-center mt-5">DIH Sardegna - Finance</h1>
   <h2 class="text-center mb-3">Gestione avanzata Analytics</h2>
+
   <div class="row">
     <div class="col-6" *ngIf="sessioni.dataTable">
       <google-chart [data]="sessioni"></google-chart>
     </div>
+
+    <div class="col-6" *ngIf="nuoviUtenti.dataTable">
+      <google-chart [data]="nuoviUtenti"></google-chart>
+    </div>
   </div>
+
 </div>
