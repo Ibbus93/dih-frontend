@@ -31,4 +31,4 @@ This project is written primarily using the following technologies and libraries
 
 - [Angular](https://angular.io/): development platform for building mobile and desktop web applications;
 - [Bootstrap](https://getbootstrap.com): CSS framework;
-- [Ng2 Google Charts](https://github.com/gmazzamuto/ng2-google-charts): Angular library to create Google Charts
+- [Ng2 Google Charts](https://github.com/gmazzamuto/ng2-google-charts): Angular library to create Google Charts.
